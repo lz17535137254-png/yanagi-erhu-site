@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ヤナギ先生の二胡楽園</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <!-- 顶部导航（可选，想更简洁也可以删掉） -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#top">ヤナギ先生の二胡楽園</a>
+      <nav class="nav">
+        <a href="#profile">プロフィール</a>
+        <a href="#gallery">ギャラリー</a>
+        <a href="#video">動画</a>
+        <a href="#activities">活動</a>
+        <a href="#contact">連絡先</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- ① 主图 + 居中标题 -->
+    <section class="hero">
+      <img class="hero-bg" src="./assets/hero.jpg" alt="メインビジュアル">
+      <div class="hero-overlay">
+        <h1 class="hero-title">ヤナギ先生の二胡楽園</h1>
+        <p class="hero-sub">二胡演奏・音楽教育・多文化交流</p>
+      </div>
+    </section>
+
+    <!-- ② 宣传照（滚动展示，统一尺寸） -->
+    <section id="gallery" class="section">
+      <div class="container">
+        <h2 class="section-title">ギャラリー</h2>
+
+        <div class="scroll-gallery" aria-label="プロモーション写真（横スクロール）">
+          <!-- 你把图片放 assets/gallery/ 下，然后在这里加 <img> -->
+          <img src="./assets/gallery/p1.jpg" alt="プロモーション写真 1">
+          <img src="./assets/gallery/p2.jpg" alt="プロモーション写真 2">
+          <img src="./assets/gallery/p3.jpg" alt="プロモーション写真 3">
+          <img src="./assets/gallery/p4.jpg" alt="プロモーション写真 4">
+        </div>
+
+        <p class="note">※写真のサイズが異なっていても、表示は自動で統一されます。</p>
+      </div>
+    </section>
+
+    <!-- ③ 宣传视频（你可以用YouTube iframe 或本地video） -->
+    <section id="video" class="section">
+   <div class="video-wrap">
+    <iframe
+     width="100%"
+     height="100%"
+     src="https://www.youtube-nocookie.com/embed/MOIo5jwZ2UI?rel=0&modestbranding=1"
+     title="ヤナギ先生の二胡楽園｜プロモーション動画"
+     frameborder="0"
+     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+     allowfullscreen>
+    </iframe>
+   </div>
+
+        <!-- B: 本地视频（如果你有 mp4） -->
+        <!--
+        <video class="video-local" controls src="./assets/promo.mp4"></video>
+        -->
+      </div>
+    </section>
+
+    <!-- ④ 宣传文（全日语，使用你给的新版简介） -->
+    <section id="profile" class="section">
+      <div class="container">
+        <h2 class="section-title">プロフィール</h2>
+
+        <div class="card">
+          <h3 class="mini-title">🌸 基本情報</h3>
+          <ul class="list">
+            <li>氏名： 柳 中岳（リュウ チュウガク）ヤナギ先生</li>
+            <li>出身地： 中国・山西省</li>
+            <li>専門分野： 二胡演奏・音楽教育</li>
+            <li>使用言語： 日本語・中国語</li>
+          </ul>
+
+          <p>
+            中国北部・山西省に生まれ、幼少期より中国伝統音楽に親しむ。
+            現在は日本を拠点に、演奏活動と音楽教育研究を両立しながら、二胡の魅力を広く発信している。
+          </p>
+
+          <div class="divider"></div>
+
+          <h3 class="mini-title">🏫 学歴・経歴</h3>
+          <p>
+            4歳より二胡を始め、20年以上にわたり研鑽を重ねる。2019年、山西省芸術大学入試において第1位の成績で合格し、山西大学音楽学院へ進学。同大学を首席で卒業。
+          </p>
+          <p>
+            2023年に来日後、洗足学園音楽大学大学院 音楽教育専攻に進学。
+            研究テーマ「日本の学校教育における二胡導入と多文化音楽教育」を掲げ、
+            音楽教育現場における異文化理解の可能性を探究している。
+          </p>
+          <p>
+            近年は、日本の小学校・中学校・高等学校において、二胡を通じた音楽鑑賞授業・体験型ワークショップ・多文化交流授業を多数実施。
+            演奏と対話を組み合わせた実践型授業を展開している。
+          </p>
+
+          <div class="divider"></div>
+
+          <h3 class="mini-title">🎵 教育方針・指導理念</h3>
+          <p>
+            柳先生のレッスンは、「弾く技術」を教えることからではなく、まず音楽を感じることから始まります。
+            音を出す前に、リズムを体で感じ、旋律を歌い、音色を想像する。
+            そのプロセスを大切にしながら、一人ひとりの感性を引き出すことを目標としています。
+          </p>
+
+          <ul class="list">
+            <li>リズム感を育てる体系的トレーニング</li>
+            <li>旋律・音色を感じ取る感性トレーニング</li>
+            <li>唱譜（しょうふ）を取り入れた音感教育</li>
+          </ul>
+
+          <p>
+            「唱譜」とは、旋律を声に出して歌いながら理解する学習法であり、音感・リズム感・表現力を同時に育てる効果があります。
+            “音を歌うように弾く”ことを重視した指導法で、音楽を「再現する」だけでなく「表現する」力を育てます。
+          </p>
+
+          <div class="divider"></div>
+
+          <h3 class="mini-title">🎤 レッスン内容</h3>
+          <ul class="list">
+            <li>対象：初心者〜上級者まで対応</li>
+            <li>ジャンル：中国伝統音楽、アニメ音楽、J-POP、映画音楽、クラシック等</li>
+          </ul>
+          <p class="muted">
+            授業は日本語・中国語どちらでも対応可能。文化背景の違いを橋渡しする分かりやすい説明を心がけています。
+          </p>
+
+          <div class="divider"></div>
+
+          <h3 class="mini-title">📷 主な活動実績</h3>
+          <ul class="list">
+            <li>神奈川県川崎市立久本小学校：児童向け二胡体験授業</li>
+            <li>神奈川県立横浜翠嵐高等学校：多文化音楽交流授業・演奏</li>
+            <li>相模原市立大野南中学校（夜間学級）：多国籍の生徒向け音楽交流</li>
+            <li>地域福祉施設での慰問演奏、文化祭出演、国際交流イベント参加など</li>
+          </ul>
+
+          <div class="divider"></div>
+
+          <h3 class="mini-title">💬 メッセージ</h3>
+          <p>
+            二胡は、言葉では表せない感情をそのまま音にできる楽器です。上手に弾くことよりも、自分の音を見つけること。
+            音楽を“感じる”ことから始めれば、きっとあなたらしい表現に出会えます。
+            一緒に、音の旅を楽しみましょう。
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ⑤ 活动展示（从 JSON 读取，操作简单） -->
+    <section id="activities" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title">活動・News</h2>
+          <p class="note">※更新は <b>assets/data/activities.json</b> を編集するだけ。</p>
+        </div>
+
+        <div id="activitiesGrid" class="grid"></div>
+      </div>
+    </section>
+
+    <!-- ⑥ 联系方式（只留 ins + mail） -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title">連絡先</h2>
+
+        <div class="contact-grid">
+          <div class="contact-card">
+            <h3>Instagram</h3>
+            <img class="qr" src="./assets/ins-qr.png" alt="Instagram QR">
+            <a class="link" href="https://instagram.com/zhuyu6364" target="_blank" rel="noopener">
+              @zhuyu6364（クリックで開く）
+            </a>
+          </div>
+
+          <div class="contact-card">
+            <h3>Email</h3>
+            <p class="mono">liuzhongyue63@gmail.com</p>
+            <a class="link" href="mailto:liuzhongyue63@gmail.com">メールを送る</a>
+          </div>
+        </div>
+
+        <footer class="footer">
+          <small>© <span id="year"></span> ヤナギ先生</small>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+</html>
